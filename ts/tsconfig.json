@@ -1,5 +1,4 @@
 {
-    "compileOnSave": true,
     "compilerOptions": {
         "baseUrl": ".",
         "declaration": true,
@@ -10,11 +9,12 @@
         "sourceMap": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "removeComments": false,
+        "preserveConstEnums": true,
+        "removeComments": true,
         "noImplicitAny": false,
-        "outDir": "lib/"
+        "outDir": "../js"
     },
     "files": [
-        "./src/index.ts"
+        "./index.ts"
     ]
 }

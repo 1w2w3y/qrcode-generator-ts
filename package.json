@@ -2,11 +2,8 @@
   "name": "qrcode-generator-ts",
   "version": "0.0.1",
   "description": "Typescript QR Code generator based on https://github.com/kazuhikoarase/qrcode-generator",
-  "main": "lib/index.js",
-  "typings": "lib/index",
-  "files": [
-    "lib/"
-  ],
+  "main": "js/index.js",
+  "typings": "js/index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +16,7 @@
     "typescript",
     "qrcode-generator"
   ],
-  "author": "1w2w3y",
+  "author": "1w2w3y@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/1w2w3y/qrcode-generator-ts/issues"
