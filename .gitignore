@@ -1,4 +1,5 @@
 typings
+lib
 
 *.js.map
 dist
