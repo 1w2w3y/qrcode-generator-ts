@@ -1,11 +1,12 @@
 {
   "name": "qrcode-generator-ts",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Typescript QR Code generator based on https://github.com/kazuhikoarase/qrcode-generator",
   "main": "js/index.js",
   "typings": "js/index",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pack-debug":"node_modules/.bin/webpack --debug",
+    "pack-min":"node_modules/.bin/webpack -p"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/1w2w3y/qrcode-generator-ts/issues"
   },
-  "homepage": "https://github.com/1w2w3y/qrcode-generator-ts#readme"
+  "homepage": "https://github.com/1w2w3y/qrcode-generator-ts#readme",
+  "devDependencies": {
+    "ts-loader": "^1.2.1",
+    "typescript": "^2.0.10",
+    "webpack": "^1.13.3"
+  }
 }
