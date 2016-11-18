@@ -13,7 +13,7 @@
         "preserveConstEnums": true,
         "removeComments": true,
         "noImplicitAny": true,
-        "outDir": "../js"
+         "outDir": "../js"
     },
     "files": [
         "./index.ts"

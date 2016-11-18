@@ -2,7 +2,7 @@ var webpack = require('webpack'),
     path = require('path'),
     yargs = require('yargs');
 
-var libraryName = 'qrcode-generator-ts',
+var libraryName = 'qrcodegeneratorts',
     plugins = [],
     outputFile;
 
