@@ -15,11 +15,11 @@ if (yargs.argv.p) {
 
 var config = {
     entry: [
-        __dirname + '/ts/index.ts'
+        __dirname + '/index.ts'
     ],
     devtool: 'source-map',
     output: {
-        path: path.join(__dirname, '/dist'),
+        path: path.join(__dirname, '/bundles'),
         filename: outputFile,
         library: libraryName,
         libraryTarget: 'umd',
